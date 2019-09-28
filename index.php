@@ -30,7 +30,7 @@
 
 <?php 
 
-$r=file_get_contents('./read.txt',true);
+$r=file_get_contents('./read3.txt',true);
 echo "$r";
 
 ?>
@@ -38,3 +38,4 @@ echo "$r";
 
 </body>
 </html> 
+
