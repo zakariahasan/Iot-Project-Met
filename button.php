@@ -1,4 +1,4 @@
-<?php 
+<<?php 
 
 if (isset($_POST['S1on']))
 {
@@ -28,7 +28,7 @@ else if (isset($_POST['S2on']))
 	$file2 = "buttonStatus2.txt";
 	$handle = fopen($file2,'w+');
 
-	$offstring = "S1OFF";
+	$offstring = "S2ON";
 	fwrite($handle, $offstring);
 	fclose($handle);
 	header('location:index.php');	
@@ -40,9 +40,10 @@ else if (isset($_POST['S2on']))
 	$file2 = "buttonStatus2.txt";
 	$handle = fopen($file2,'w+');
 
-	$offstring = "S1OFF";
+	$offstring = "S2OFF";
 	fwrite($handle, $offstring);
 	fclose($handle);
 	header('location:index.php');	
  }
  
+
